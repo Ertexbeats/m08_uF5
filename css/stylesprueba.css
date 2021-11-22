@@ -1,0 +1,32 @@
+*{
+    /* font-family: 'Press Start 2P', cursive; */
+    
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  background-color:purple;
+  color: white;
+  text-align: center;
+}
+.celda1{
+    color: whitesmoke;
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
