@@ -1,1 +1,29 @@
-table,
+html{
+    height: 100%;
+  }
+  body{
+      background-color: cornflowerblue;
+  }
+
+  table,
+  th,
+  td {
+    border: 2px solid black;
+    color:red;
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+  }
+  th{
+      background-color: aliceblue;
+  }
+  td{
+      background-color: deepskyblue;
+  }
+
+  table{
+    height: 100%;
+    width: 100%;
+  }
+
+  /* .titulos */
