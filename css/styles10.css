@@ -1,29 +1,39 @@
-html{
-    height: 100%;
-  }
-  body{
-      background-color: cornflowerblue;
-  }
+html {
+  height: 100%;
+}
 
-  table,
-  th,
-  td {
-    border: 2px solid black;
-    color:red;
-    font-size: 64px;
-    text-align: center;
-    font-family: 'Spectral SC', serif;
-  }
-  th{
-      background-color: aliceblue;
-  }
-  td{
-      background-color: deepskyblue;
-  }
+#bodrec {
+  background-color: cornflowerblue;
+  font-family: "Spectral SC", serif;
+}
 
-  table{
-    height: 100%;
-    width: 100%;
-  }
+table,
+th,
+td {
+  border: 2px solid black;
+  color: red;
+  font-size: 64px;
+  text-align: center;
+}
+th {
+  background-color: aliceblue;
+}
+td {
+  background-color: deepskyblue;
+}
 
-  /* .titulos */
+table {
+  height: 100%;
+  width: 100%;
+}
+
+#pf {
+  text-decoration: none;
+  color: red;
+}
+.pata {
+}
+.subti{
+  color: chocolate;
+  font-size: 40px;
+}
