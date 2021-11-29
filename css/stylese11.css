@@ -1,12 +1,18 @@
 table {
     border-collapse: collapse;
 }
-
 table
 tr
 td{
     border: 1px solid black;
+    height: 80px;
+    width: 150px;
+    text-align: center;
 
+}
+.dias {
+    background-color: black;
+    color: white;
 }
 
 .hora {
@@ -15,4 +21,46 @@ td{
 .descans {
     text-align: center;
     font-size: 25px;
+    background-color: gainsboro;
+}
+.m04 {
+    background-color: rebeccapurple;
+}
+.m04 a{
+    color: black;
+}
+
+.m06 {
+    background-color: cadetblue;
+}
+.m06 a{
+    color: black;
+}
+
+.m07 {
+    background-color: coral;
+}
+.m07 a{
+    color: black;
+}
+
+.m08 {
+    background-color: darkgreen;
+}
+.m08 a{
+    color: black;
+}
+
+.m10 {
+    background-color: darkred;
+}
+.m10 a{
+    color: black;
+}
+
+.tut {
+    background-color: gold;
+}
+.tut a{
+    color: black;
 }
