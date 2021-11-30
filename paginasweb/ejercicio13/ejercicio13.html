@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../../css/stylese13.css">
+  </head>
+  <body>
+    <h1>FORMULARIO</h1>
+    <form action="#" method="get">
+  <fieldset id="masterfield">
+    <fieldset id="fieldinfobasic">
+      <legend><strong><ins>Datos</ins></strong></legend>
+
+        <label for="fname">Nombre</label> <br>
+        <input type="text" name="name" id="fname" maxlength="30" placeholder="Tu nombre">
+
+        <br> <br>
+
+        <label for="fsurname">Apellidos</label> <br>
+        <input type="text" name="surname" id="fsurname" maxlength="30" placeholder="Tu apellido">
+
+        <br><br>
+
+        <label for="altura">Altura en centimetros</label> <br>
+        <input type="number" name="altura" id="altura">
+
+        <br><br>
+
+        <label for="email">Email:</label> <br>
+        <input type="text" name="email" id="email" placeholder="tuemail@ejemplo.com">
+
+        <br><br>
+        
+        <label for="nacimiento">Fecha de nacimiento</label> <br>
+        <input type="date" name="fecha de nacimiento" id="nacimiento">
+
+    </fieldset>
+<br>
+    <fieldset id="fieldnacionalidad">
+      <legend id="legdnacionalidad"><strong><ins>Nacionalidad</ins></strong></legend>
+
+      <label for="espanola">Española</label>
+      <input type="radio" name="nacionalidad" id="espanola" value="es" checked>
+
+      <label for="comnue">Comunitario(UE)</label>
+      <input type="radio" name="nacionalidad" id="comnue" value="scom">
+
+      <label for="nocomn">No comunitario</label>
+      <input type="radio" name="nacionalidad" id="nocomn" value="ncom">
+    </fieldset>
+<br>
+    <fieldset id="fieldestudios">
+      <legend id="legdestudios"><strong><ins>Estudios</ins></strong></legend>
+      <select name="estudios" id="estudios">
+        <option value="">Selecciona una opcion</option>
+        <option value="SMX">CFGM SMX</option>
+        <option value="ASIX">CFGS ASIX</option>
+        <option value="DAW">CFGS DAW</option>
+        <option value="DAM">CFGS DAM</option>
+        <option value="BACHILLERATO">Bachillerato</option>
+        <option value="ESO">ESO</option>
+        <option value="PRIMARIA">Primaria</option>
+      </select>
+    </fieldset>
+<br>
+    <fieldset id="fieldidiomas">
+      <legend id="legdidiomas"><strong><ins>Idiomas</ins></strong></legend>
+      <label for="castellano">Castellano</label>
+      <input type="checkbox" name="idiomas" id="castellano" value="castellano">
+
+      <label for="catalan">Catalán</label>
+      <input type="checkbox" name="idiomas" id="catalan" value="catalan">
+
+      <label for="english">English</label>
+      <input type="checkbox" name="idiomas" id="english" value="english">
+
+      <label for="italiano">Italiano</label>
+      <input type="checkbox" name="idiomas" id="italiano" value="italiano">
+    </fieldset>
+<br>
+    <fieldset id="fieldbotones">     
+      <input type="submit" value="enviar" name="borrar">
+      <input type="reset" value="borrar" name="borrar">
+    </fieldset>
+  </fieldset>
+
+    </form>
+
+  </body>
+
+</html>

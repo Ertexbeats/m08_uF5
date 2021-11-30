@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>pruebas</title>
     <link rel="stylesheet" href="../css/stylesprueba.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,28 +13,65 @@
     <link rel="stylesheet" href="https://www.dafont.com/xxii-ultimate-black-metal.font">
   </head>
   <body>
-    <table>
-      <tr>
-        <th>Columna 1</th>
-        <th>Columna 2</th>
-        <th>Columna 3</th>
-      </tr>
+    <h1>FORMULARIO</h1>
+    <form action="#" method="get">
+    <fieldset>
+      <legend>Datos personales</legend>
+        <label for="fname">Name:</label> <br>
+        <input type="text" name="name" id="fname" maxlength="30" placeholder="hola caaecola">
 
-      <tr>
-        <td rowspan="3" class="celda1">Celda 1-1</td>
-        <td>Celda 1-2</td>
-        <td>Celda 1-3</td>
-      </tr>
+        <br> <br>
 
-      <tr>
-        <td>Celda 2-2</td>
-        <td>Celda 2-3</td>
-      </tr>
+        <label for="sname">Surname:</label> <br>
+        <input type="text" name="surname" id="sname" maxlength="30">
 
-      <tr>
-        <td colspan="2">Celda 3-2</td>
-      </tr>
-    </table>
-    <img src="https://picsum.photos/900/300" alt="" />
+        <br><br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="genero" id="male" value="H">
+
+        <label for="male">Female</label>
+        <input type="radio" name="genero" id="female" value="F">
+
+        <br><br>
+
+        <label for="email">Email:</label> <br>
+        <input type="text" name="email" id="email">
+
+        <br><br>
+        
+        <label for="pwd">Password:</label> <br>
+        <input type="password" name="pwd" id="pwd">
+
+        <br><br>
+    </fieldset>
+      <label for="aficiones">Aficiones:</label> <br> 
+
+      <label for="comer">Comer</label>
+      <input type="checkbox" name="aficiones" id="comer" value="comer"> <br>
+
+      <label for="musica">Musica</label>
+      <input type="checkbox" name="aficiones" id="musica" value="musica"> <br>
+
+      <br>
+      Estudios Previos
+      <select name="estudios" id="estudios">
+        <option value="">Selecciona una opcion</option>
+        <option value="SMX">CGFM SMX</option>
+        <option value="ASIX">CGFS ASIX</option>
+        <option value="DAW">CGFS DAW</option>
+        <option value="DAM">CGFS DAM</option>
+      </select>
+      <br><br>
+
+      <label for="comentarios">Comentarios:</label> <br>
+      <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+
+      <br><br>
+
+      
+      <input type="submit" value="enviar" name="borrar">
+      <input type="reset" value="borrar" name="borrar">
+    </form>
   </body>
 </html>

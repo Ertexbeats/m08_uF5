@@ -1,0 +1,40 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+#masterfield {
+
+}
+
+#fieldinfobasic {
+    background-color: coral;
+}
+
+#fieldnacionalidad {
+    background-color: greenyellow;
+}
+
+#fieldestudios {
+    background-color: pink;
+}
+
+#fieldidiomas {
+    background-color: darkturquoise;
+}
+
+#fieldbotones {
+    background-color: gray;
+}
+
+#legdestudios {
+    color: blue;
+}
+
+#legdnacionalidad {
+    color: orange;
+}
+
+#legdidiomas {
+    color: red;
+}
