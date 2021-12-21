@@ -1,0 +1,67 @@
+.alltable {
+  height: 600px;
+  width: 600px;
+}
+
+.left-rect {
+  width: 400px;
+  float: left;
+  height: 100%;
+  background-color: white;
+}
+
+.right-rect {
+  width: 200px;
+  float: left;
+  height: 100%;
+}
+
+.inside-rect-max {
+  width: 49%;
+  height: 200px;
+  float: left;
+}
+.inside-rect-max-horizontal {
+  width: 100%;
+  height: 97px;
+  float: left;
+}
+.inside-rect-less {
+  width: 49%;
+  height: 100px;
+  float: left;
+}
+
+.height-less {
+  height: 100px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+.height-max {
+  height: 200px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.green_oscured {
+  background-color: #669900;
+}
+
+.green {
+  background-color: #99cc00;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.border-bottom {
+  border-bottom: 7px solid white;
+}
+
+.space_between_horizontal {
+  display: flex;
+  flex-direction: column;
+}
