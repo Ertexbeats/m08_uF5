@@ -1,4 +1,38 @@
-.alltable {
-    width: 600px;
-    height: 600px;
+.green_oscured {
+  background-color: #669900;
 }
+
+.green {
+  background-color: #99cc00;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.alltable {
+  width: 600px;
+  height: 600px;
+}
+.cuadrado-1 {
+  height: 100px;
+  width: 400px;
+}
+.cuadrado-2 {
+    height: 200px;
+    width: 200px;
+   float: left;
+  }
+  .cuadrado-3 {
+    height: 300px;
+    width: 200px;
+  }
+  .cuadrado-4 {
+    height: 200px;
+    width: 200px;
+  }
+  .cuadrado-5 {
+    height: 200px;
+    width: 200px;
+   float: left;
+  }
