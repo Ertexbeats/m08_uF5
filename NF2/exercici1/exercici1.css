@@ -1,0 +1,98 @@
+.black {
+  background-color: #000000;
+}
+.green {
+  background-color: #99cc00;
+}
+.green-oscured {
+  background-color: #669900;
+}
+.alltable {
+  height: 600px;
+  width: 600px;
+}
+.cuadrado-1 {
+  color: white;
+  width: 69%;
+  float: left;
+  height: 100px;
+  margin-bottom: 5px;
+  margin-right: 5px ;
+}
+.cuadrado-2 {
+  color: white;
+  width: 30%;
+  float: right;
+  height: 100px;
+}
+.cuadrado-3 {
+  color: white;
+  width: 34%;
+  float: left;
+  height: 200px;
+  margin-bottom: 5px;
+  margin-right: 5px ;
+}
+.cuadrado-4 {
+  color: white;
+  width: 34%;
+  float: left;
+  height: 200px;
+}
+.cuadrado-5 {
+  color: white;
+  width: 30%;
+  float: right;
+  height: 97px;
+  margin-bottom: 5px;
+}
+.cuadrado-6 {
+  color: white;
+  width: 30%;
+  float: right;
+  height: 97px;
+  margin-bottom: 5px;
+  
+}
+.cuadrado-7 {
+  color: white;
+  width: 69%;
+  float: left;
+  height: 100px;
+  margin-bottom: 5px;
+  margin-right: 5px ;
+}
+.cuadrado-8 {
+  color: white;
+  width: 69%;
+  float: left;
+  height: 100px;
+  margin-bottom: 5px;
+  margin-right: 5px ;
+}
+.cuadrado-9 {
+  color: white;
+  width: 30%;
+  float: right;
+  height: 205px;
+}
+.cuadrado-10 {
+  color: white;
+  width: 34%;
+  float: left;
+  height: 100px;
+  margin-right: 5px ;
+}
+.cuadrado-11 {
+  color: white;
+  width: 34%;
+  float: left;
+  height: 100px;
+  margin-right: 5px ;
+}
+.cuadrado-12 {
+  color: white;
+  width: 30%;
+  float: right;
+  height: 100px;
+}
