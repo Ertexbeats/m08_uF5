@@ -26,19 +26,19 @@ float: left;
   width: 400px;
 }
 .cuadrado-2 {
-    height: 100px;
-    width: 200px;
-  }
-  .cuadrado-3 {
     height: 200px;
     width: 200px;
   }
+  .cuadrado-3 {
+    height: 100px;
+    width: 200px;
+  }
   .cuadrado-4 {
-    height: 300px;
+    height: 200px;
     width: 200px;
   }
   .cuadrado-5 {
-    height: 100px;
+    height: 300px;
     width: 200px;
   }
   .cuadrado-6 {
