@@ -1,0 +1,18 @@
+/* Colors */
+.green {
+  background-color: #7fdd15;
+}
+.green-oscured {
+  background-color: #7fdd15;
+}
+.black {
+  background-color: #000000;
+}
+.cyan {
+  background-color: #23ffdd;
+}
+/* Tabla */
+.alltable {
+  height: 600px;
+  width: 600px;
+}
