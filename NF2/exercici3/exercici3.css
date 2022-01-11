@@ -2,8 +2,8 @@
 .green {
   background-color: #7fdd15;
 }
-.green-oscured {
-  background-color: #7fdd15;
+.green_oscuro {
+  background-color: #01b302;
 }
 .black {
   background-color: #000000;
@@ -11,8 +11,77 @@
 .cyan {
   background-color: #23ffdd;
 }
+.text {
+  color: white;
+  text-align: center;
+}
 /* Tabla */
 .alltable {
   height: 600px;
   width: 600px;
+}
+/* Cuadrados */
+.cuadrado-1 {
+  position: absolute;
+  height: 85px;
+  width: 600px;
+  top: 10px;
+}
+.cuadrado-2 {
+  position: absolute;
+  height: 85px;
+  width: 200px;
+  top: 100px;
+}
+.cuadrado-3 {
+  position: absolute;
+  height: 265px;
+  width: 395px;
+  top: 100px;
+  left: 213px;
+}
+.cuadrado-4 {
+  position: absolute;
+  height: 85px;
+  width: 200px;
+  top: 190px;
+}
+.cuadrado-5 {
+  position: absolute;
+  height: 85px;
+  width: 200px;
+  top: 280px;
+}
+.cuadrado-6 {
+  position: absolute;
+  height: 170px;
+  width: 200px;
+  top: 370px;
+}
+.cuadrado-7 {
+  position: absolute;
+  height: 85px;
+  width: 195px;
+  top: 370px;
+  left: 213px;
+}
+.cuadrado-8 {
+  position: absolute;
+  height: 80px;
+  width: 195px;
+  top: 460px;
+  left: 213px;
+}
+.cuadrado-9 {
+  position: absolute;
+  height: 260px;
+  width: 195px;
+  top: 370px;
+  left: 413px;
+}
+.cuadrado-10 {
+  position: absolute;
+  height: 85px;
+  width: 400px;
+  top: 545px;
 }
