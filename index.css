@@ -1,17 +1,32 @@
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 
-body{
-    height: 100%;
-    margin: 0;
-    background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+body {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-repeat: repeat;
 }
- .cabesado{
-     color: white;
-     text-align: center;
- }
- .jul{ 
-     text-decoration: none;
-     color: white;
- }
+.cabesado {
+  color: white;
+  text-align: center;
+}
+.jul {
+  text-decoration: none;
+  color: white;
+}
