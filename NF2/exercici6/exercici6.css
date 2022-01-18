@@ -1,0 +1,61 @@
+body {
+    background-color: #FAF5CD;
+}
+.page{
+    width: 830px;
+    background-color: #fef2cd;
+    border-color: black;
+}
+.asidel{
+    float: left;
+}
+.asider{
+    float:right
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+#tres{
+    text-align: center;
+    display: flex;
+justify-content: center;
+}
+
+#cuatro{
+    float: left;
+}
+
+#cinco{
+
+}
+
+#seis{
+    float: right;
+}
+
+#siete{
+    float: left;
+}
+
+#img{
+    width: 558px;
+    height: 380px;
+}
+
+#nueve{
+    float: left;
+}
+
+#diez{
+    float: right;
+}
+
+#once{
+ margin-left:20px;
+margin-bottom: 60px;
+}
+
+#doce{
+   
+}
