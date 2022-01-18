@@ -1,61 +1,59 @@
 body {
-    background-color: #FAF5CD;
+  background-color: #faf5cd;
 }
-.page{
-    width: 830px;
-    background-color: #fef2cd;
-    border-color: black;
+.page {
+  width: 830px;
+  background-color: #fef2cd;
+  border-color: black;
 }
-.asidel{
-    float: left;
+.asidel {
+  float: left;
 }
-.asider{
-    float:right
+.asider {
+  float: right;
 }
-section{
-    display: flex;
-    justify-content: center;
+section {
+  display: flex;
+  justify-content: center;
 }
-#tres{
-    text-align: center;
-    display: flex;
-justify-content: center;
-}
-
-#cuatro{
-    float: left;
+#tres {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-#cinco{
-
+#cuatro {
+  float: left;
 }
 
-#seis{
-    float: right;
+#cinco {
 }
 
-#siete{
-    float: left;
+#seis {
+  float: right;
 }
 
-#img{
-    width: 558px;
-    height: 380px;
+#siete {
+  float: left;
 }
 
-#nueve{
-    float: left;
+#img {
+  width: 558px;
+  height: 380px;
 }
 
-#diez{
-    float: right;
+#nueve {
+  float: left;
 }
 
-#once{
- margin-left:20px;
-margin-bottom: 60px;
+#diez {
+  float: right;
 }
 
-#doce{
-   
+#once {
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+#doce {
 }
