@@ -1,0 +1,12 @@
+.zm-fst {
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+}
+.zm-fst:hover {
+    transform: scale(1.01);
+}
+
+.milka {
+    text-decoration: none;
+    color: white;
+}
