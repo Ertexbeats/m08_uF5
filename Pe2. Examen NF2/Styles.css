@@ -1,12 +1,21 @@
 .zm-fst {
-    transition-timing-function: ease-in-out;
-    transition: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
 }
 .zm-fst:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .milka {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+.milko {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  margin-top: 300px;
+  border-top: 1px solid black;
+  background: #212529;
 }
